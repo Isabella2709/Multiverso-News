@@ -8,20 +8,40 @@
   </head>
   <body>
     <header class="head">
-      <img src="img/baseline_menu_black_24dp.png" class="hamburguer">
-      <menu>
-        <ul>
-          <li>Pagina Inicial</li>
-          <li>Multiverso Noticias</li>
-          <li>Postagem de Noticias</li>
-          <li>Contato</li>
-          <p>conforome falsdo</p>
+      
+      
+        <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css">
 
+        <div class="topnav">
+          <a href="#index.html" class="active"><img src="Multiverso-removebg-preview.png" class="logo"></a>
+         <div id="myLinks">
+          <a href="#index.html">Noticias</a>
+          <a href="#noticia1.html">Novas noticias</a>
+          <a href="#noticia2.html">Noticias urgentes</a>
+          <a href="#formnot.html">Nós envie sua noticia</a>
+          </div>
+          <a href="javascript:void(0);" class="icon" onclick="myFunction()">
+            <i class="fa fa-bars"></i>
+          </a>
+        </div>
 
-
-          
-        </ul>
-      </menu>
     </header>
+
+    <main>
+      
+    </main>
+
+    <script>
+      function myFunction(){
+        var x = document.getElementById("myLinks");
+        if(x.style.display=="block"){
+          x.style.display = "none";
+        }else{
+            x.style.display = "block"
+          }
+        }
+      
+     </script> 
   </body>
 </html>
+
